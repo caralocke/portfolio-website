@@ -281,6 +281,25 @@ input, select, textarea {
 				}
 
 		}
+/* Stack */
+
+.stack-container {
+	/* display: flex; */
+}
+
+/* Repo Links */
+.repo-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.featured {
+	border: 1px solid rgb(194, 191, 191);
+}
+
+.project-img {
+	height: 300px;
+}
 
 /* Row */
 

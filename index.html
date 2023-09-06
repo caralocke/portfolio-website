@@ -9,7 +9,9 @@
 		<title>Cara Locke</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="devicon.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 	</head>
 	<body class="is-preload">
 
@@ -34,7 +36,7 @@
 							<header>
 								<h1>Hi. I'm <strong>Cara Locke</strong>.</h1>
 							</header>
-							<p>And this is <strong>my portfolio</strong>. I'm a web developer currently with skills in JavaScript, React, Redux, Python, Node.js, CSS, and HTML.</p>
+							<p>And this is <strong>my portfolio</strong>. I'm a web developer currently with skills in JavaScript, React, Redux, Node.js, CSS, and HTML.</p>
 							<a href="#work" class="button large scrolly">Learn about what I do</a>
 						</div>
 					</div>
@@ -42,13 +44,13 @@
 			</article>
 
 		<!-- Work -->
-			<!-- <article id="work" class="wrapper style2">
+			<article id="work" class="wrapper style2">
 				<div class="container">
 					<header>
-						<h2>Here's all the stuff I do.</h2>
-						<p>Currently I'm focusing on Web Development, but I plan to learn to make mobile and desktop apps as well (Maybe even some games!).</p>
+						<h2>My Tech Stack</h2>
+						<p>Below are the stacks I have experience with, but I am always looking to learn new things!</p>
 					</header>
-					<div class="row aln-center">
+					<!-- <div class="row aln-center">
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
 								<span class="icon featured fa-comments"></span>
@@ -70,13 +72,27 @@
 								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
 							</section>
 						</div>
+					</div> -->
+					<div class="stack-container">
+							<img src="https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5" alt="HTML"/>
+							<img src="https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6" alt="CSS"/>
+							<img src="https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript" alt="JavaScript"/>
+							<img src="https://img.shields.io/badge/-React-333333?style=flat&logo=react" alt="React"/>					
+							<img src="https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js" alt="Node"/>
+							<img src="https://img.shields.io/badge/-SQLite3-333333?style=flat&logo=SQLite" alt="SQLite3"/>
+							<img src="https://img.shields.io/badge/-PostgreSQL-333333?style=flat&logo=PostgreSQL" alt="PostgreSQL"/>
+							<img src="https://img.shields.io/badge/-Python-333333?style=flat&logo=python" alt="Python"/>
+							<img src="https://img.shields.io/badge/-Git-333333?style=flat&logo=git" alt="Git"/>
+							<img src="https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github" alt="Github"/>
+							<img src="https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC" alt="Visual Studio Code" />
 					</div>
+
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<!-- <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p> -->
 						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
 					</footer>
 				</div>
-			</article> -->
+			</article>
 
 		<!-- Portfolio -->
 			<article id="portfolio" class="wrapper style3">
@@ -88,42 +104,92 @@
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="https://nasa-photo-of-the-day-taupe.vercel.app/" target="_blank" class="image featured"><img src="images/Nasa.png" alt="Screenshot of my NasaPOTD site" /></a>
+								<a href="https://nasa-photo-of-the-day-taupe.vercel.app/" target="_blank" class="image featured">
+									<img src="images/Nasa.png" alt="Screenshot of my NasaPOTD site" class="project-img" /></a>
 								<h3><a href="https://nasa-photo-of-the-day-taupe.vercel.app/">Nasa Photo of the Day 🚀</a></h3>
-								<p>This project focused on learning how to use api calls, how to work with the promise returned from an api call, and how to use api keys.</p>
+								<p>This project was created with React, focused on learning how to use api calls with Axios, how to work with the promise returned from an api call, and how to use api keys. I also used this project to practice some styling tricks using Styled Components.</p>
+								<div class="repo-container">
+									<div class="front-end-repo-container">
+										<p class="front-end-repo">Front end repo:
+											<div>
+												<a href="https://github.com/caralocke/nasa-photo-of-the-day/tree/cara-locke-flex" target="_blank">
+													<img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white"/>
+												</a>	
+											</div>																						
+										</p>
+									</div>
+								</div>	
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="https://front-end-rho-sable.vercel.app/" target="_blank" class="image featured"><img src="images/Pintereach.png" alt="" /></a>
-								<h3><a href="https://front-end-rho-sable.vercel.app/">Pintereach</a></h3>
-								<p>This project was my first working as a team. For my contributions, I was asked to do the styling of the components as well as create the navigation bar.</p>
+								<a href="https://bill-tracker-kappa.vercel.app/" target="_blank" class="image featured">
+									<img src="images/billtracker.JPG" alt="bill tracker" class="project-img" /></a>
+								<h3><a href="https://bill-tracker-kappa.vercel.app/" target="_blank">Bill Tracker</a></h3>
+								<p>For the Bill Tracker app, I created the front end using React, implemented React Big Calendar and used Redux for state management. The back end I created a RESTful API using Node and Express that extend to a PostgreSQL database capable of CRUD operations.</p>
+								<div class="stack-used">
+								</div>
+								<div class="repo-container">
+									<div class="front-end-repo-container">
+										<p class="front-end-repo">Front end repo:
+											<div>
+												<a href="https://github.com/caralocke/bill-tracker/tree/main" target="_blank">
+													<img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white"/>
+												</a>	
+											</div>																						
+										</p>
+									</div>
+									<div class="back-end-repo-container">
+										<p class="front-end-repo">Back end repo:
+											<div>
+												<a href="https://github.com/caralocke/node-api-postgres" target="_blank">
+													<img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white"/>
+												</a>		
+											</div>																						
+										</p>
+									</div>
+								</div>								
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="https://frontend-nine-omega.vercel.app/" target="_blank" class="image featured"><img src="images/WaterMyPlants.png" alt="" /></a>
+								<a href="https://frontend-nine-omega.vercel.app/" target="_blank" class="image featured">
+									<img src="images/WaterMyPlants.png" alt="" class="project-img"/></a>
 								<h3><a href="https://frontend-nine-omega.vercel.app/">🌱 Water My Plants 🌱</a></h3>
-								<p>For "Water My Plants," I worked with some fantastic team members. My contributions were to help with the functionality (using JavaScript and React) as well as setting up routes and links.</p>
+								<p>For "Water My Plants," I worked with some fantastic team members. My contributions were to help with the front end functionality using JavaScript and React, as well as setting up routes and links using React-Router-Dom.</p>
+								<div class="repo-container">
+									<div class="front-end-repo-container">
+										<p class="front-end-repo">Front end repo:
+											<div>
+												<a href="https://github.com/ft-watermyplants6/frontend" target="_blank">
+													<img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white"/>
+												</a>	
+											</div>																						
+										</p>
+									</div>
+								</div>	
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="https://potluck-planner-07.netlify.app/" target="_blank" class="image featured"><img src="images/Potluck.png" alt="" /></a>
+								<a href="https://potluck-planner-07.netlify.app/" target="_blank" class="image featured">
+									<img src="images/Potluck.png" alt="Potluck" class="project-img" /></a>
 								<h3><a href="https://potluck-planner-07.netlify.app/">Potluck Planner</a></h3>
 								<p>Potluck Planner was my first ever project where I built a RESTful API for a fullstack web application. Using Node.js and PostgreSQL, I was able to create a backend API for storing information pertaining to potlucks that are being planned by the users. The code for the API can be found <a href="https://github.com/caralocke/potluck-planner-07" target="_blank">here</a></p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="https://humanrightsfirstdocdb.dev/" target="_blank" class="image featured"><img src="images/hrf.JPG" alt="" /></a>
-								<h3><a href="https://humanrightsfirstdocdb.dev/">Human Rights First Document Database</a></h3>
-								<p>With the Human Rights First Document Database project, I worked with about 30 other developers to create a database for the Human Rights First Organization in which they could easily search and view documents. I cannot go into much detail as the material stored here is very sensitive, but we were hailed with it being a much needed resource for them that we were able to provide.</p>
+								<a href="https://front-end-rho-sable.vercel.app/" target="_blank" class="image featured">
+									<img src="images/Pintereach.png" alt="Pintereach" class="project-img" /></a>
+								<h3><a href="https://front-end-rho-sable.vercel.app/">Pintereach</a></h3>
+								<p>This project was my first working as a team. For my contributions, I was asked to do the styling of the components as well as create the navigation bar.</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="https://mock-amazon-project.vercel.app/" target="_blank" class="image featured"><img src="images/amazon.JPG" alt="" /></a>
+								<a href="https://mock-amazon-project.vercel.app/" target="_blank" class="image featured">
+									<img src="images/amazon.JPG" alt="Mock Amazon" class="project-img" /></a>
 								<h3><a href="#">Mock Amazon E-Commerce Site</a></h3>
 								<p>This mock "Amazon" e-commerce site was created using JavaScript. </p>
 							</article>
