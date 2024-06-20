@@ -281,6 +281,26 @@ input, select, textarea {
 				}
 
 		}
+/* Stack */
+
+.stack-container {
+	/* display: flex; */
+}
+
+/* Repo Links */
+.repo-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.featured {
+	border: 1px solid rgb(194, 191, 191);
+}
+
+.project-img {
+	height: 300px;
+}
+
 
 /* Row */
 
@@ -352,7 +372,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 50%;
 		}
 
 		.row > .off-4 {
@@ -1934,6 +1954,7 @@ input, select, textarea {
 			left: 2em;
 			top: 2em;
 			margin: -4em 0 4em -4em;
+			padding: 1%;
 			width: auto;
 		}
 
